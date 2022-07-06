@@ -11,10 +11,10 @@ function result(j, t) {
         var seVenceu = [];
 
         j.map(function(value) {
-          var timesAtuais = value.split(' ');
+          let timesAtuais = value.split(' ');
           
-          var time1 = timesAtuais[0];
-          var time2 = timesAtuais[1];
+          let time1 = timesAtuais[0];
+          let time2 = timesAtuais[1];
           
           if (time1 > time2) {
             seVenceu.push(1);
